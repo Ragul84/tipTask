@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+.banner {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url('https://wallpapers-clan.com/wp-content/uploads/2024/04/anime-boy-with-yellow-glowing-eyes-desktop-wallpaper-cover.jpg');
+  background-size: contain;
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  opacity: 2;
+}
+
+@media screen and (max-width: 670px) {
+  .tips {
+    display: flex;
+   
+  }
+  .tipbtn{
+  font-size: 7px;
+  font-weight: bolder;
+  scale: 1;
+  }
+}

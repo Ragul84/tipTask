@@ -1,0 +1,7 @@
+POST http://localhost:3001/calculate-tip
+Content-Type: application/json
+
+{
+  "billAmount": 10340,
+  "tipPercentage": 25
+}
